@@ -7,6 +7,7 @@ import AlertTitle from '@mui/material/AlertTitle';
 import { GET_EPISODES } from '../Query';
 
 const columns = [
+  { field: 'id', headerName: 'ID'},
   { field: 'name', headerName: 'Name', width: 300 },
   { field: 'air_date', headerName: 'Air Date', width: 300 },
 ];

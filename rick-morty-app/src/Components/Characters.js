@@ -7,6 +7,7 @@ import AlertTitle from '@mui/material/AlertTitle';
 import { GET_CHARACTERS } from '../Query';
 
 const columns = [
+  { field: 'id', headerName: 'ID' },
   { field: 'name', headerName: 'Name', width: 300 },
   { field: 'status', headerName: 'Status', width: 100 },
   { field: 'species', headerName: 'Species', width: 100 },
